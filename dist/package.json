@@ -1,9 +1,9 @@
 {
   "name": "mitt-d",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "mitt",
-  "main": "./dist/mitt-d.js",
-  "module": "./dist/mitt-d.js",
+  "main": "./mitt-d.js",
+  "module": "./mitt-d.js",
   "scripts": {
     "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});exports.mitt=function(e){return{all:e=e||new Map,on(t,s){const n=e.get(t);n?n.push(s):e.set(t,[s])},emit(t,s){const n=e.get(t);n&&n.map((e=>{e(s)}))},off(t,s){const n=e.get(t);if(n)if(s){let e=n.indexOf(s);n.splice(e,1)}else e.set(n,[])}}};
